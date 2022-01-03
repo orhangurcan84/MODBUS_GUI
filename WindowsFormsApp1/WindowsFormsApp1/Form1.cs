@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show("ERROR");
             }
         }
 
@@ -82,7 +82,7 @@ namespace WindowsFormsApp1
                 }
                 catch (Exception error)
                 {
-                    MessageBox.Show(error.Message);
+                    MessageBox.Show("ERROR");
                 }
             }
         }
@@ -97,7 +97,7 @@ namespace WindowsFormsApp1
                 }
                 catch (Exception error)
                 {
-                    MessageBox.Show(error.Message);
+                    MessageBox.Show("ERROR");
                 }
 
             }
